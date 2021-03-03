@@ -184,7 +184,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
-        'PORT': '5000',
+        'PORT': '',
 
         # 'NAME': 'webshopdb',
         # 'USER': 'teranga',
@@ -244,7 +244,7 @@ USE_TZ = True
 
 STATIC_URL = '/static_src/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_src')]
 
