@@ -18,6 +18,8 @@ from django.contrib.gis.measure import D
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
+django_heroku.settings(locals())
+
 
 location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', x)
 
