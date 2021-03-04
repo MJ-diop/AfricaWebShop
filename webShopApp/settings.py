@@ -180,18 +180,18 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': str(BASE_DIR / 'db.sqlite3'),
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'postgis_31_sample',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '',
+        #'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        #'NAME': 'postgis_31_sample',
+        #'USER': 'postgres',
+        #'PASSWORD': 'admin',
+        #'HOST': 'localhost',
+        #'PORT': '',
 
-        # 'NAME': 'webshopdb',
-        # 'USER': 'teranga',
-        # 'PASSWORD': 'teranga',
-        # 'HOST': '85.214.193.29',
-        # 'PORT': '5433',
+        'NAME': 'webshopdb',
+        'USER': 'teranga',
+        'PASSWORD': 'teranga',
+        'HOST': '85.214.193.29',
+        'PORT': '5433',
     }
 }
 AUTHENTICATION_BACKENDS = (
