@@ -127,7 +127,8 @@ INSTALLED_APPS = [
     'django_tables2',
     'paypal',
     'stores',
-    'stores.dashboard'
+    'stores.dashboard',
+    'herokuapp',
 ]
 SITE_ID = 1
 
