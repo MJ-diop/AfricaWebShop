@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 from oscar.defaults import *
 import os
+import django_heroku
 from django.contrib.gis.measure import D
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
