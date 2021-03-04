@@ -45,7 +45,7 @@ SECRET_KEY = '72_8_kc3+6&y4#bnb60&=5y#g=z5as9)2pr7&v6hsvi6c(d9h%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['africawebshop.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # # Maximal distance of 150 miles
 # STORES_MAX_SEARCH_DISTANCE = D(mi=150)
