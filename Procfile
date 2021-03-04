@@ -1,1 +1,1 @@
-web: gunicorn africawebshop.wsgi --log-file -
+web: gunicorn webShopApp.wsgi --log-file -
