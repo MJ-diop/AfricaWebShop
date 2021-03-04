@@ -18,8 +18,6 @@ from django.contrib.gis.measure import D
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-django_heroku.settings(locals())
-
 
 location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', x)
 
@@ -248,6 +246,9 @@ USE_TZ = True
 STATIC_URL = '/static_src/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+django_heroku.settings(locals())
 
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_src')]
 
