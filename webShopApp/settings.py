@@ -128,7 +128,6 @@ INSTALLED_APPS = [
     'paypal',
     'stores',
     'stores.dashboard',
-    'herokuapp',
 ]
 SITE_ID = 1
 
